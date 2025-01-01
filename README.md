@@ -11,44 +11,21 @@ Matplotlib
 Scikit-learn
 Install dependencies:
 
-bash
-Copy code
-pip install -r requirements.txt
-Data
+
+
+
+# Data
 The model uses Apple Inc.'s historical stock data (open, high, low, close, volume). You can obtain this data from sources like Yahoo Finance.
 
-Model Architecture
+# Model Architecture
 The LSTM model takes 60 days of stock data as input and predicts the next day's closing price. It consists of:
 
-LSTM layers to capture time dependencies
+# LSTM layers to capture time dependencies
 Dense layers for output prediction
 Training
-To train the model:
 
-Load and preprocess the data.
-Train the LSTM model on the data.
-Evaluate performance on the test set.
-python
-Copy code
-model.fit(X_train, y_train, epochs=100, batch_size=32)
-Usage
-Download and preprocess Apple stock data.
-Train the model on historical data.
-Use the model to predict future closing prices.
-License
+# License
 MIT License.
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
