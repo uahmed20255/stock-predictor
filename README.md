@@ -2,14 +2,14 @@
 This project implements an LSTM (Long Short-Term Memory) model to predict Apple Inc.'s closing stock prices using historical data from the last 60 days.
 
 # Requirements
-Python 3.x
-TensorFlow
-Keras
-Pandas
-NumPy
-Matplotlib
-Scikit-learn
-Install dependencies:
+ - Python 3.x
+ - TensorFlow
+ - Keras
+ - Pandas
+ - NumPy
+ - Matplotlib
+ - Scikit-learn
+ - Install dependencies:
 
 
 
